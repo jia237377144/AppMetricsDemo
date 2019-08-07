@@ -1,0 +1,37 @@
+﻿<Project Sdk="Microsoft.NET.Sdk.Web">
+
+  <PropertyGroup>
+    <TargetFramework>netcoreapp2.0</TargetFramework>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <Folder Include="wwwroot\" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <PackageReference Include="App.Metrics" Version="3.1.0" />
+    <PackageReference Include="App.Metrics.AspNetCore.Health" Version="3.1.0" />
+    <PackageReference Include="App.Metrics.Health.Reporting.Metrics" Version="3.1.0" />
+    <!--<PackageReference Include="App.Metrics.AspNetCore.Health.Endpoints" Version="3.1.0" />
+    <PackageReference Include="App.Metrics.AspNetCore.Health.Hosting" Version="3.1.0" />
+    <PackageReference Include="App.Metrics.AspNetCore.Hosting" Version="3.1.0" />
+    <PackageReference Include="App.Metrics.AspNetCore.Tracking" Version="3.1.0" />
+    <PackageReference Include="App.Metrics.Extensions.HealthChecks" Version="3.1.0" />
+    <PackageReference Include="App.Metrics.Extensions.Middleware" Version="1.2.1" />
+  
+        <PackageReference Include="App.Metrics.Reporting.Console" Version="3.1.0" />-->
+    <!--<PackageReference Include="App.Metrics.Extensions.Mvc" Version="1.2.1" />-->
+    <PackageReference Include="App.Metrics.AspNetCore.Mvc" Version="3.1.0" />
+    <PackageReference Include="App.Metrics.Reporting.InfluxDB" Version="3.1.0" />
+    <PackageReference Include="App.Metrics.Health.Checks.Http" Version="3.1.0" />
+    <PackageReference Include="App.Metrics.Health.Checks.Network" Version="3.1.0" />
+    <PackageReference Include="App.Metrics.Health.Checks.Process" Version="3.1.0" />
+
+    <PackageReference Include="Microsoft.AspNetCore.All" Version="2.0.3" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <DotNetCliToolReference Include="Microsoft.VisualStudio.Web.CodeGeneration.Tools" Version="2.0.1" />
+  </ItemGroup>
+
+</Project>
